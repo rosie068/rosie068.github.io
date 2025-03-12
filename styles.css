@@ -57,14 +57,6 @@ body {
     text-decoration: underline;
 }
 
-.about p {
-    margin-bottom: 3em;  /* Adds space after each paragraph */
-}
-
-.about p:last-child {
-    margin-bottom: 0;  /* Removes extra space after the last paragraph */
-}
-
 section {
     margin-bottom: 3rem;
 }
@@ -72,6 +64,20 @@ section {
 h2 {
     color: var(--primary-color);
     margin-bottom: 1rem;
+}
+
+.about {
+    margin-bottom: 3rem;
+}
+
+.about p {
+    margin: 0;          /* Reset default margins */
+    padding: 0;         /* Reset default padding */
+    line-height: 1.6;   /* Comfortable line height */
+}
+
+.about p + p {
+    margin-top: 2em;    /* Add space between paragraphs */
 }
 
 .research-item {
