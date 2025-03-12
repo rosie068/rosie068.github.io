@@ -57,6 +57,14 @@ body {
     text-decoration: underline;
 }
 
+.about p {
+    margin-bottom: 1.5em;  /* Adds space after each paragraph */
+}
+
+.about p:last-child {
+    margin-bottom: 0;  /* Removes extra space after the last paragraph */
+}
+
 section {
     margin-bottom: 3rem;
 }
