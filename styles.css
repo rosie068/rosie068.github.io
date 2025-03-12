@@ -1,0 +1,103 @@
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+    --text-color: #333;
+    --background-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-info h1 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.contact-links {
+    margin-top: 1rem;
+}
+
+.contact-links a {
+    margin-right: 1rem;
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.contact-links a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+h2 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.research-item {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.research-item img {
+    width: 300px;
+    height: auto;
+}
+
+.research-links a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.awards ul {
+    list-style-position: inside;
+}
+
+@media (max-width: 768px) {
+    .profile-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .research-item {
+        flex-direction: column;
+    }
+
+    .research-item img {
+        width: 100%;
+    }
+}
