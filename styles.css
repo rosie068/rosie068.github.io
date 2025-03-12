@@ -58,7 +58,7 @@ body {
 }
 
 .about p {
-    margin-bottom: 1.5em;  /* Adds space after each paragraph */
+    margin-bottom: 3em;  /* Adds space after each paragraph */
 }
 
 .about p:last-child {
