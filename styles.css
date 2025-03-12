@@ -67,20 +67,44 @@ h2 {
 }
 
 .research-item {
-    display: flex;
-    gap: 2rem;
-    margin-bottom: 2rem;
+    border-bottom: 1px solid #eee;
+    padding: 20px 0;
+    margin-bottom: 20px;
 }
 
-.research-item img {
-    width: 300px;
-    height: auto;
+.research-content h3 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.research-content p {
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.research-content p:first-of-type {
+    font-style: italic;
+}
+
+.research-links {
+    margin-top: 10px;
 }
 
 .research-links a {
-    color: var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
     text-decoration: none;
-    margin-right: 1rem;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 0.9rem;
+}
+
+.research-links a:hover {
+    background-color: #2980b9;
+    text-decoration: none;
 }
 
 .awards ul {
