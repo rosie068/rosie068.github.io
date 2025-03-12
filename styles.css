@@ -121,6 +121,47 @@ h2 {
     text-decoration: none;
 }
 
+.research-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;  /* Align to top */
+    gap: 2rem;
+    padding: 2rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.research-content {
+    flex: 3;  /* Takes up 3/4 of the space */
+}
+
+.research-figure {
+    flex: 1;  /* Takes up 1/4 of the space */
+}
+
+.research-figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.research-figure img:hover {
+    transform: scale(1.05);  /* Slight zoom on hover */
+}
+
+/* Make it responsive */
+@media (max-width: 768px) {
+    .research-item {
+        flex-direction: column;
+    }
+    
+    .research-figure {
+        width: 100%;
+        margin-top: 1rem;
+    }
+}
+
 .awards ul {
     list-style-position: inside;
 }
