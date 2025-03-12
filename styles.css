@@ -107,6 +107,55 @@ h2 {
     text-decoration: none;
 }
 
+.presentations {
+    margin-bottom: 3rem;
+}
+
+.presentation-list ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.presentation-list li {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-left: 3px solid #eee;
+    transition: all 0.3s ease;
+}
+
+.presentation-list li:hover {
+    border-left-color: var(--secondary-color);
+    background-color: #f8f9fa;
+}
+
+.presentation-list strong {
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
+.presentation-list em {
+    color: #666;
+    font-style: italic;
+}
+
+.presentation-list .date {
+    color: #888;
+    font-size: 0.9rem;
+    margin-left: 10px;
+}
+
+.presentation-list .presentation-type {
+    display: inline-block;
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    margin: 0 10px;
+}
+
 .awards ul {
     list-style-position: inside;
 }
