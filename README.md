@@ -1,1 +1,1 @@
-This is my personal academic website. Visit it at https://rosie068.github.io
+This is a record of where I have been, am at and will be going.
